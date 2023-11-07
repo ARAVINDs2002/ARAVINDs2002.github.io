@@ -942,7 +942,44 @@ b, strong {
 		</div>
 	</div>
 	<!-- footer -->
-	
+	<div class="thank-you-container">
+        <video autoplay loop muted playsinline poster="video-poster.jpg">
+            <source src="images/ink_-_67358 (720p).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="content">
+            <h1>Thank You!</h1>
+            <p style="color:white;">For visiting my personal webpage.</p>
+            <p style="color:white;">Feel free to connect with me on LinkedIn and share your regards:</p>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">Connect on LinkedIn</a>
+        </div>
+        <style>
+            .thank-you-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                position: relative;
+            }
+            video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: -1;
+            }
+            .content {
+                text-align: center;
+                color: white;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                font-family: Arial, sans-serif;
+                z-index: 1;
+
+            }
+        </style>
+    </div>
 	<footer>
 		<div class="w3ls-footer-grids py-4">
 			<div class="container py-xl-5 py-lg-3">
